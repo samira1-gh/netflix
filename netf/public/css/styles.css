@@ -1,0 +1,718 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap);
+ 
+.page-header {
+    background: #fff;
+}
+
+
+body {
+    background-color: #fff;
+}
+/* ==================== Landing Page Hero ============== */
+.hero-section {
+    position: relative;
+    top: -3rem;
+    background-image: url(/images/hero-bg.jpg?d710fcb5fc4ff2ffc4e6d9cacde82c05);
+    background-position: center;
+    background-size: cover;
+    height: 45rem;
+}
+
+.hero-section-inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    width: 70%;
+    padding-top: 9em;
+    color: #fff;
+}
+
+.getst {
+    padding: 12px 45px;
+    font-size: 2rem;
+    border-radius: 30px;
+}
+
+.hero-text p {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+}
+.hero-text h1 {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 81px;
+    padding: 0 0 45px;
+    text-align: center;
+}
+ 
+/* ========================= Utilies ================== */
+.orange-text {
+    color: #fd6e56;
+}
+.blue-text {
+    color: #21243d;
+}
+.gray-text {
+    color: #d3d3d3;
+}
+
+
+.button {
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 5rem;
+    border-radius: 5px;
+}
+.three-tab-box {
+    position: relative;
+    display: block;
+}
+.three-tab-box .tabs-content {
+    position: relative;
+    display: block;
+    padding: 0;
+}
+.hero-section:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #151921;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.crowdfunding_detail {
+    position: relative;
+    display: block;
+    padding: 36px 0 120px;
+}
+.crowdfunding_text span {
+    color: #fd6e56;
+}
+.crowdfunding_text h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+}
+.crowdfunding_text .bottom-text {
+    line-height: 36px;
+    margin: 0;
+}
+.crowdfunding_text .middle_text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #232733;
+    margin: 0;
+    line-height: 36px;
+    padding-top: 40px;
+    padding-bottom: 37px;
+}
+.crowdfunding_image_shape {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    height: 325px;
+    width: 40px;
+    background: #f8f4f0;
+    transform: translateY(-50%);
+}
+.crowdfunding_bottom h4 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+}
+.crowdfunding_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    background: #fd6e56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crowdfunding_image {
+    position: relative;
+    display: block;
+    margin-left: 70px;
+}
+.crowdfunding_image img {
+    width: 100%;
+}
+
+.orange-btn {
+    background: #fd6e56;
+    color: #fff;
+}
+.white-btn {
+    background: #fff;
+    color: #000;
+}
+
+.blue-btn {
+    background: #3f76e1;
+    color: #fff;
+}
+
+.white-btn:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.orange-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-section-media {
+    margin-top: 8rem;
+}
+
+.hero-section-media-sm-container {
+    display: flex;
+    width: 30rem;
+    justify-content: space-between;
+}
+.hero-section-img {
+    width: 14.3rem;
+    height: 14.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+progress[value]::-webkit-progress-value {
+    border-radius: 2px;
+    background-color: #ff874b;
+}
+progress[value] {
+    width: 90%;
+    height: 9px;
+    margin: 0 1em;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: #eaf3f1;
+}
+ 
+
+ 
+
+/* ======== Main Content Styles ========== */
+.main-section-content {
+   z-index: 20;
+   padding-top: 2rem;
+}
+
+.do-good-section {
+   z-index: 20;
+   width: 50%;
+}
+
+.do-good-section p {
+    width: 80%;
+}
+
+.everything-you-need-to-know-section {
+    margin: 3rem 0;
+    width: 100%;
+}
+
+.everything-you-need-to-know-section h1 {
+    width: 40%;
+    font-weight: 700;
+}
+
+.cards-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-2 {
+    margin-top: 2rem;
+}
+.card-3 {
+    margin-top: 4rem;
+}
+.feature-card {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32%;
+    padding: 0 2rem 1rem 2rem;
+    border-radius: 0.5rem;
+    height: 13rem;
+}
+
+.feature-card h3 {
+    position: relative;
+    top: -1rem;
+}
+
+.curly-text {
+    color: #ed6754;
+    font-family: 'Dancing Script', cursive;
+}
+
+ .feature-card-icon {
+    background-color: #1b1f41d1;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-radius: 50%;
+    position: relative;
+    top: -2rem;
+}
+
+.feature-card-icon  svg {
+    width: 70%;
+}
+
+.efficient svg {
+    width: 60%;
+}
+
+.background-box {
+    height: 0.5rem;
+    background-color: #ed6754;
+    position: relative;
+    z-index: -2;
+    top: 12rem;
+}
+
+.top-campaigns {
+    background-color: #f3f3f3;
+    margin: 0 auto;
+}
+
+.campaign-grid {
+    display: grid;
+    margin: 3rem 6rem;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 3em;
+}
+
+.campaign-grid .campaign-card {
+   width: 100%;
+   height: auto;
+   background-color: #fff;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+}
+.card-image {
+    height: 30vh;
+     
+}
+
+.campaign-card h3 {
+    color: #1b1f41;
+}
+
+footer {
+    
+    background-color: #1c1c1c;
+    padding: 1rem 0;
+}
+
+.footer-inner {
+     width: 90%;
+     margin: 0 auto;
+     color: rgb(29, 18, 18);
+     display: flex;
+     align-items: baseline;
+     justify-content: space-between;
+     padding-bottom: 2rem;
+}
+
+.footer-inner ul li {
+    list-style-type: none;
+}
+
+.footer-inner ul li a {
+    color: #bcbdc8;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer-inner ul h3 {
+    padding-bottom: 1rem;
+    color: #e96955;
+    text-transform: uppercase;
+}
+
+.footer-inner-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.city {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/* =============== Campaign Details Page Styles  ====================== */
+.campaign-details {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.campaign-details-inner {
+    width: 100%;
+}
+
+.campaign-img {
+    width: 100%;
+     
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 1rem;
+}
+
+.campaign-info {
+  width: 100%;
+}
+
+.campaign-progress {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.campaign-progress-bar {
+    width: 40%;
+    height: 0.5rem;
+    border-radius: 5px;
+    background-color:  #1b1f41c5;
+}
+
+.progress-bar-inner {
+    width: 70%;
+    height: 0.5rem;
+    border-radius: 5px;
+    background-color: #e96955e6;
+}
+
+.campaign-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.campaign-buttons .button {
+    width: 48%;
+}
+
+/* ============ End of Campaign Details Page Styles ============ */
+
+
+
+/* =========== Tablet Design ================== */
+@media only screen 
+  and (min-width: 641px) 
+  and (max-width: 1024px) {
+    /* ================= Landing Page Hero Section   =================*/
+    .hero-section-inner {
+      width: 80%;
+    }
+    .tablet {
+        display: none;
+    }
+
+    .hero-text {
+        width: 100%;
+        padding-top: 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-text p {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        width: 100%;
+        font-size: 45px;
+    }
+
+    .hero-section-media {
+        display: none;
+    }
+   /* =================End Of Landing Page Hero Section For Tablet */
+
+    /* ============== Main Content Section Tablet Design ============== */
+    .main-section-content {
+    width: 90vw;
+    }
+
+    .do-good-section {
+    z-index: 20;
+    width: 90%;
+    }
+
+    .do-good-section p {
+        width: 80%;
+    }
+
+    .everything-you-need-to-know-section {
+        width: 100%;
+    }
+
+    .everything-you-need-to-know-section h1 {
+        width: 70%;
+    }
+    .feature-card {
+        height: 16rem;
+    }
+
+    .feature-card h3 {
+        top: 0rem;
+    }
+
+     .feature-card-icon {
+        top: -1rem;
+    }
+    .campaign-grid {
+        grid-template-columns: 48% 48%;
+    }
+    /* =============== Site Footer ========= */
+
+    .footer-inner {
+        padding-bottom: 2rem;
+    }
+
+    .footer-inner ul h3 {
+        text-transform: capitalize;
+    }
+
+    .footer-inner-container {
+        width: 80%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .social-media-links {
+        width: 25%;
+    }
+}
+/* ============== iPad Pro Designs =============== */
+@media only screen 
+  and (min-width: 798px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)  {
+    .hero-section-media {
+        display: none;
+    }
+
+    .hero-text {
+            width: 95%;
+            padding-top: 13rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+    .everything-you-need-to-know-section h1 {
+        width: 50%;
+    }
+
+    .feature-card {
+        height: 15rem;
+    }
+
+    .do-good-section {
+        width: 70%;
+    }
+
+    .campaign-grid {
+        display: grid;
+        margin: 3rem 0;
+        grid-template-columns: repeat(2, 48%);
+        height: auto;
+        grid-gap: 1rem;
+    }
+    .footer-inner ul  {
+        padding-left: 0;
+    }
+
+    .footer-inner-container {
+        width: 90%;
+    }
+
+    .social-media-links {
+        width: 16%;
+    }
+}
+
+/* ============== Mobile Design =================== */
+
+@media only screen 
+  and (min-width: 280px) 
+  and (max-width: 640px) 
+  /* and (-webkit-min-device-pixel-ratio: 3) */ { 
+    .hero-section-inner {
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .display {
+        display: none;
+    }
+
+    .hero-text {
+        width: 100%;
+        display: flex;
+        padding-top: 8rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-text p {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        width: 100%;
+    }
+
+    .hero-section-media {
+        display: none;
+    }
+
+    /* ============== Main Content Section Mobile Design ============== */
+    .main-section-content {
+        width: 90vw;
+    }
+
+    .do-good-section {
+        width: 100%;
+    }
+
+    .do-good-section p {
+        width: 100%;
+    }
+
+    .everything-you-need-to-know-section {
+        width: 100%;
+    }
+
+    .everything-you-need-to-know-section h1 {
+        width: 100%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+
+    .card-2 {
+        margin-top: 4rem;
+    }
+
+    .feature-card {
+        width: 100%;
+    }
+     .feature-card-icon {
+        width: 18%;
+    }
+    
+    .background-box {
+        height: 35rem;
+        width: 0.5rem;
+        position: absolute;
+        top: 85rem;
+        left: 50%;
+    }
+
+    .campaign-grid {
+        grid-template-columns: 100%;
+    }
+
+    .campaign-grid .campaign-card {
+      width: 100%;
+    }
+
+    .footer {
+        background-color: #1c1c1c;;
+        padding: 1rem 0;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+    }
+
+    .footer-inner ul {
+        padding-left: 0;
+    }
+
+    .footer-inner ul li a {
+        font-size: 15px;
+    }
+
+    .footer-inner-container {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+     
+
+    .campaign-details-inner {
+        width: 100%;
+    }
+
+    .campaign-info {
+    width: 100%;
+    }
+
+    .campaign-progress {
+    flex-direction: column;
+    }
+
+    .campaign-progress-bar {
+        width: 100%;
+      margin-top: 1rem;
+    }
+
+    .campaign-buttons {
+        flex-direction: column;
+    }
+
+    .campaign-buttons .button {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
